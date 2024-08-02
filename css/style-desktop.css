@@ -64,7 +64,6 @@ footer a {
   padding-top: 50px;
   padding-bottom: 30px;
   padding-inline: 30px;
-  margin-top: 30px;
 }
 
 .card {
@@ -153,9 +152,10 @@ footer a {
   margin-top: 60px;
 }
 
-.noteboox {
-  height: 300px;
-  border-radius: 50%;
+nav {
+  text-align: left;
+  padding-block: 100px;
+  padding-inline: 150px;
 }
 
 .whiteline {
@@ -164,4 +164,15 @@ footer a {
   background-color: white;
   margin-block: 30px;
   margin-inline: auto;
+}
+
+.noteboox {
+  height: 500px;
+  border-radius: 50%;
+  margin-right: 80px;
+  float: left;
+}
+.garanzie {
+  display: inline;
+  max-width: 100px;
 }
