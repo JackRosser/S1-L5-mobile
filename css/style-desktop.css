@@ -1,6 +1,5 @@
 body {
-  margin: auto;
-  width: 400px;
+  margin: 0;
   font-family: "Open Sans", sans-serif;
   color: #393d41;
   font-size: 1.2rem;
@@ -56,6 +55,7 @@ footer a {
 
 .boxlogo {
   background-color: black;
+  text-align: left;
 }
 
 .testimonianze {
@@ -110,14 +110,14 @@ footer a {
 .logo {
   height: 40%;
   margin-top: 30px;
+  margin-left: 40px;
 }
 
 .start {
   background-image: url(./images/banner.jpg);
-  background-size: cover;
-  background-position: center;
-  padding-top: 40px;
-  padding-bottom: 50px;
+  background-size: auto;
+  background-position: top;
+  padding-block: 300px;
   padding-inline: 30px;
 }
 
@@ -136,8 +136,10 @@ footer a {
   margin-top: 60px;
 }
 
-.start p {
+.dreams {
   margin-top: 20px;
+  width: 770px;
+  margin-inline: auto;
 }
 
 .headtext {
