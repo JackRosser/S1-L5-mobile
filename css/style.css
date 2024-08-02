@@ -1,16 +1,64 @@
 body {
-  margin: 0;
+  margin: auto;
   width: 400px;
   font-family: "Open Sans", sans-serif;
   color: #393d41;
   font-size: 1.2rem;
   line-height: 1.65;
+  text-align: center;
+}
+
+main {
+  width: 100%;
+  height: 3000px;
+  margin: auto;
+  background-color: #e22d0e; /* todo togliere */
+  box-sizing: border-box;
 }
 
 h1,
 h2,
 h3 {
   color: #25a2c3;
-  font-family: " Montserrat ", sans-serif;
+  font-family: "Montserrat", sans-serif;
   line-height: 1.65;
+}
+
+footer {
+  color: #c8e7f0;
+  background-color: #25a2c3;
+}
+
+footer h2 {
+  color: white;
+}
+
+footer a {
+  color: #c8e7f0;
+}
+
+header {
+  background-color: black;
+}
+
+.partiamo {
+  background-color: #f04c2f;
+  font-family: "Montserrat", sans-serif;
+}
+
+.testimonianze {
+  background-color: #e22d0e;
+}
+
+.bordi {
+  border: 1px solid #dee1e3;
+}
+
+.boxlogo {
+  height: 100px;
+}
+
+.logo {
+  height: 40%;
+  margin-top: 30px;
 }
