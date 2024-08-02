@@ -1,0 +1,164 @@
+body {
+  margin: auto;
+  width: 400px;
+  font-family: "Open Sans", sans-serif;
+  color: #393d41;
+  font-size: 1.2rem;
+  line-height: 1.65;
+  text-align: center;
+}
+
+main {
+  width: 100%;
+  margin: auto;
+
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3 {
+  color: #25a2c3;
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.65;
+}
+
+h1 {
+  font-size: 2rem;
+  line-height: 1;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+footer {
+  color: #c8e7f0;
+  background-color: #25a2c3;
+  margin-top: 90px;
+  padding-top: 40px;
+  padding-bottom: 70px;
+  padding-inline: 20px;
+}
+
+footer i {
+  color: white;
+}
+
+footer h2 {
+  color: white;
+  font-size: 2rem;
+}
+
+footer a {
+  color: #c8e7f0;
+}
+
+.boxlogo {
+  background-color: black;
+}
+
+.testimonianze {
+  background-color: #e22d0e;
+  color: white;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  padding-inline: 30px;
+  margin-top: 30px;
+}
+
+.card {
+  border: 1px solid #dee1e3;
+  width: 360px;
+  margin-bottom: 20px;
+  margin-inline: auto;
+  padding-bottom: 30px;
+}
+
+.myimage {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.firstcard {
+  margin-top: 70px;
+}
+
+.intocard {
+  padding-inline: 20px;
+}
+
+.testimonianze h2 {
+  color: #ffffff;
+  font-size: 2rem;
+}
+
+.testimonianze h3 {
+  color: white;
+  margin-top: 30px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.testimonianze p:first-of-type {
+  font-style: italic;
+}
+
+.boxlogo {
+  height: 100px;
+}
+
+.logo {
+  height: 40%;
+  margin-top: 30px;
+}
+
+.start {
+  background-image: url(./images/banner.jpg);
+  background-size: cover;
+  background-position: center;
+  padding-top: 40px;
+  padding-bottom: 50px;
+  padding-inline: 30px;
+}
+
+.partiamo {
+  background-color: #f04c2f;
+  font-family: "Montserrat", sans-serif;
+  border-radius: 5px;
+  text-transform: uppercase;
+  color: white;
+  text-decoration: none;
+  padding-block: 20px;
+  padding-inline: 40px;
+}
+
+.partbox {
+  margin-top: 60px;
+}
+
+.start p {
+  margin-top: 20px;
+}
+
+.headtext {
+  margin-top: 30px;
+  padding-inline: 30px;
+}
+
+.firstheadtext {
+  margin-top: 60px;
+}
+
+.noteboox {
+  height: 300px;
+  margin-top: 30px;
+  border-radius: 50%;
+}
+
+.whiteline {
+  height: 1px;
+  width: 200px;
+  background-color: white;
+  margin-block: 30px;
+  margin-inline: auto;
+}
