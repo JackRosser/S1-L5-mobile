@@ -61,26 +61,22 @@ footer a {
 .testimonianze {
   background-color: #e22d0e;
   color: white;
-  padding-top: 50px;
-  padding-bottom: 30px;
+  padding-block: 100px;
   padding-inline: 30px;
 }
 
 .card {
   border: 1px solid #dee1e3;
   width: 360px;
-  margin-bottom: 20px;
   margin-inline: auto;
   padding-bottom: 30px;
+  display: inline-block;
+  float: inline-start;
 }
 
 .myimage {
   width: 100%;
   margin-bottom: 20px;
-}
-
-.firstcard {
-  margin-top: 70px;
 }
 
 .intocard {
@@ -155,7 +151,7 @@ footer a {
 nav {
   text-align: left;
   padding-block: 100px;
-  padding-inline: 150px;
+  padding-left: 300px;
 }
 
 .whiteline {
@@ -167,7 +163,10 @@ nav {
 }
 
 .noteboox {
-  height: 500px;
+  max-height: 500px;
+  width: auto;
+  height: auto;
+  max-width: 100%;
   border-radius: 50%;
   margin-right: 80px;
   float: left;
