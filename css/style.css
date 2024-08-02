@@ -11,8 +11,7 @@ body {
 main {
   width: 100%;
   margin: auto;
-  background-color: #00ff26; /* todo togliere */
-  height: auto;
+
   box-sizing: border-box;
 }
 
@@ -36,10 +35,19 @@ h2 {
 footer {
   color: #c8e7f0;
   background-color: #25a2c3;
+  margin-top: 90px;
+  padding-top: 40px;
+  padding-bottom: 70px;
+  padding-inline: 20px;
+}
+
+footer i {
+  color: white;
 }
 
 footer h2 {
   color: white;
+  font-size: 2rem;
 }
 
 footer a {
@@ -145,4 +153,12 @@ footer a {
   height: 300px;
   margin-top: 30px;
   border-radius: 50%;
+}
+
+.whiteline {
+  height: 1px;
+  width: 200px;
+  background-color: white;
+  margin-block: 30px;
+  margin-inline: auto;
 }
