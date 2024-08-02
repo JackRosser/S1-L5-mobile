@@ -24,6 +24,11 @@ h3 {
   line-height: 1.65;
 }
 
+h1 {
+  font-size: 2rem;
+  line-height: 1;
+}
+
 footer {
   color: #c8e7f0;
   background-color: #25a2c3;
@@ -41,11 +46,6 @@ header {
   background-color: black;
 }
 
-.partiamo {
-  background-color: #f04c2f;
-  font-family: "Montserrat", sans-serif;
-}
-
 .testimonianze {
   background-color: #e22d0e;
 }
@@ -61,4 +61,32 @@ header {
 .logo {
   height: 40%;
   margin-top: 30px;
+}
+
+.start {
+  background-image: url(./images/banner.jpg);
+  background-size: cover;
+  background-position: center;
+  padding-top: 40px;
+  padding-bottom: 50px;
+  padding-inline: 30px;
+}
+
+.partiamo {
+  background-color: #f04c2f;
+  font-family: "Montserrat", sans-serif;
+  border-radius: 5px;
+  text-transform: uppercase;
+  color: white;
+  text-decoration: none;
+  padding-block: 20px;
+  padding-inline: 40px;
+}
+
+.partbox {
+  margin-top: 60px;
+}
+
+.start p {
+  margin-top: 20px;
 }
