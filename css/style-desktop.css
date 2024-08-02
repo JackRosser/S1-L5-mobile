@@ -71,11 +71,17 @@ footer a {
   margin-inline: auto;
   padding-bottom: 30px;
   display: inline-block;
-  float: inline-start;
+  margin-inline: 20px;
+}
+
+.cardbox {
+  margin-top: 100px;
+  margin-bottom: 150px;
 }
 
 .myimage {
   width: 100%;
+  min-height: 240px;
   margin-bottom: 20px;
 }
 
