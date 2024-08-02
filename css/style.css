@@ -10,9 +10,9 @@ body {
 
 main {
   width: 100%;
-  height: 3000px;
   margin: auto;
-  background-color: #e22d0e; /* todo togliere */
+  background-color: #00ff26; /* todo togliere */
+  height: auto;
   box-sizing: border-box;
 }
 
@@ -52,10 +52,47 @@ footer a {
 
 .testimonianze {
   background-color: #e22d0e;
+  color: white;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  padding-inline: 30px;
+  margin-top: 30px;
 }
 
-.bordi {
+.card {
   border: 1px solid #dee1e3;
+  width: 360px;
+  margin-bottom: 20px;
+  margin-inline: auto;
+  padding-bottom: 30px;
+}
+
+.myimage {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.firstcard {
+  margin-top: 70px;
+}
+
+.intocard {
+  padding-inline: 20px;
+}
+
+.testimonianze h2 {
+  color: #ffffff;
+  font-size: 2rem;
+}
+
+.testimonianze h3 {
+  color: white;
+  margin-top: 30px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.testimonianze p:first-of-type {
+  font-style: italic;
 }
 
 .boxlogo {
