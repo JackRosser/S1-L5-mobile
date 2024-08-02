@@ -29,6 +29,10 @@ h1 {
   line-height: 1;
 }
 
+h2 {
+  margin-bottom: 20px;
+}
+
 footer {
   color: #c8e7f0;
   background-color: #25a2c3;
@@ -42,7 +46,7 @@ footer a {
   color: #c8e7f0;
 }
 
-header {
+.boxlogo {
   background-color: black;
 }
 
@@ -93,4 +97,15 @@ header {
 
 .headtext {
   margin-top: 30px;
+  padding-inline: 30px;
+}
+
+.firstheadtext {
+  margin-top: 60px;
+}
+
+.noteboox {
+  height: 300px;
+  margin-top: 30px;
+  border-radius: 50%;
 }
