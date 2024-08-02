@@ -1,1 +1,16 @@
-/* Your styles here */
+body {
+  margin: 0;
+  width: 400px;
+  font-family: "Open Sans", sans-serif;
+  color: #393d41;
+  font-size: 1.2rem;
+  line-height: 1.65;
+}
+
+h1,
+h2,
+h3 {
+  color: #25a2c3;
+  font-family: " Montserrat ", sans-serif;
+  line-height: 1.65;
+}
