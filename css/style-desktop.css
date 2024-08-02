@@ -117,7 +117,8 @@ footer a {
   background-image: url(./images/banner.jpg);
   background-size: auto;
   background-position: top;
-  padding-block: 300px;
+  padding-top: 300px;
+  padding-bottom: 200px;
   padding-inline: 30px;
 }
 
@@ -138,13 +139,14 @@ footer a {
 
 .dreams {
   margin-top: 20px;
-  width: 770px;
   margin-inline: auto;
+  padding-inline: 20px;
 }
 
 .headtext {
   margin-top: 30px;
   padding-inline: 30px;
+  text-align: left;
 }
 
 .firstheadtext {
@@ -153,7 +155,6 @@ footer a {
 
 .noteboox {
   height: 300px;
-  margin-top: 30px;
   border-radius: 50%;
 }
 
