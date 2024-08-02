@@ -35,7 +35,7 @@ footer {
   color: #c8e7f0;
   background-color: #25a2c3;
   margin-top: 90px;
-  padding-top: 40px;
+  padding-top: 60px;
   padding-bottom: 70px;
   padding-inline: 20px;
 }
@@ -46,7 +46,7 @@ footer i {
 
 footer h2 {
   color: white;
-  font-size: 2rem;
+  font-size: 3rem;
 }
 
 footer a {
@@ -68,10 +68,12 @@ footer a {
 .card {
   border: 1px solid #dee1e3;
   width: 360px;
+  min-height: 447px;
   margin-inline: auto;
   padding-bottom: 30px;
   display: inline-block;
   margin-inline: 20px;
+  vertical-align: top;
 }
 
 .cardbox {
@@ -162,7 +164,7 @@ nav {
 
 .whiteline {
   height: 1px;
-  width: 200px;
+  width: 295px;
   background-color: white;
   margin-block: 30px;
   margin-inline: auto;
@@ -180,4 +182,10 @@ nav {
 .garanzie {
   display: inline;
   max-width: 100px;
+}
+
+.refbox {
+  text-align: left;
+  margin-inline: auto;
+  width: 295px;
 }
